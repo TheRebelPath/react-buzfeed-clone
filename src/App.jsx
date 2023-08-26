@@ -19,7 +19,8 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:8000/quiz");
+      // const response = await fetch("http://localhost:8000/quiz");
+      const response = await fetch("https://api.jsonstorage.net/v1/json/20abe32b-488a-49c2-beac-f26eb127bee8/3621153f-c406-41cc-b0f8-44baef278130");
       const json = await response.json();
       setQuiz(json);
     } catch (err) {
