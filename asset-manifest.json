@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TheRebelPath/react-buzfeed-clone/static/css/main.899183ad.css",
+    "main.js": "/TheRebelPath/react-buzfeed-clone/static/js/main.9085ba75.js",
+    "index.html": "/TheRebelPath/react-buzfeed-clone/index.html",
+    "main.899183ad.css.map": "/TheRebelPath/react-buzfeed-clone/static/css/main.899183ad.css.map",
+    "main.9085ba75.js.map": "/TheRebelPath/react-buzfeed-clone/static/js/main.9085ba75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.899183ad.css",
+    "static/js/main.9085ba75.js"
+  ]
+}
