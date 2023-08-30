@@ -47,7 +47,7 @@ const App = () => {
         //small delay given to give the answer time to render and scroll all the way down
         setTimeout(() => {
           window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
-        }, 100);
+        }, 300);
       } else {
         // scroll to highest unasweredQuestionIds
         const highestId = Math.min(...unansweredQuestionIds);
