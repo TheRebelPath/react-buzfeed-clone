@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-buzfeed-clone/static/css/main.81941c64.css",
-    "main.js": "/react-buzfeed-clone/static/js/main.0c70388e.js",
+    "main.js": "/react-buzfeed-clone/static/js/main.0f37d40c.js",
     "index.html": "/react-buzfeed-clone/index.html",
     "main.81941c64.css.map": "/react-buzfeed-clone/static/css/main.81941c64.css.map",
-    "main.0c70388e.js.map": "/react-buzfeed-clone/static/js/main.0c70388e.js.map"
+    "main.0f37d40c.js.map": "/react-buzfeed-clone/static/js/main.0f37d40c.js.map"
   },
   "entrypoints": [
     "static/css/main.81941c64.css",
-    "static/js/main.0c70388e.js"
+    "static/js/main.0f37d40c.js"
   ]
 }
