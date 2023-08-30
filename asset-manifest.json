@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-buzfeed-clone/static/css/main.899183ad.css",
-    "main.js": "/react-buzfeed-clone/static/js/main.9085ba75.js",
+    "main.css": "/react-buzfeed-clone/static/css/main.81941c64.css",
+    "main.js": "/react-buzfeed-clone/static/js/main.0c70388e.js",
     "index.html": "/react-buzfeed-clone/index.html",
-    "main.899183ad.css.map": "/react-buzfeed-clone/static/css/main.899183ad.css.map",
-    "main.9085ba75.js.map": "/react-buzfeed-clone/static/js/main.9085ba75.js.map"
+    "main.81941c64.css.map": "/react-buzfeed-clone/static/css/main.81941c64.css.map",
+    "main.0c70388e.js.map": "/react-buzfeed-clone/static/js/main.0c70388e.js.map"
   },
   "entrypoints": [
-    "static/css/main.899183ad.css",
-    "static/js/main.9085ba75.js"
+    "static/css/main.81941c64.css",
+    "static/js/main.0c70388e.js"
   ]
 }
