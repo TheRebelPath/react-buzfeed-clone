@@ -15,7 +15,6 @@ const App = () => {
   }, {});
 
   const answerRef = createRef();
-  // console.log(refs)
 
   const fetchData = async () => {
     try {
@@ -45,6 +44,10 @@ const App = () => {
       }
       if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
         setShowAnswer(true);
+        //small delay given to give the answer time to render and scroll all the way down
+        setTimeout(() => {
+          window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+        }, 100);
       } else {
         // scroll to highest unasweredQuestionIds
         const highestId = Math.min(...unansweredQuestionIds);
@@ -52,8 +55,6 @@ const App = () => {
       }
     }
   }, [unansweredQuestionIds, showAnswer, chosenAnswerItems, answerRef, refs]);
-  // console.log(chosenAnswerItems);
-  // console.log(unansweredQuestionIds);
 
   return (
     <div className="app">

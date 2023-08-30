@@ -17,8 +17,6 @@ const AnswerBlock = ({ answerOptions, chosenAnswers }, ref) => {
     });
   }, [result, answerOptions, chosenAnswers]);
 
-  console.log(result);
-
   return (
     <div ref={ref} className="answer-block">
       <h2>{result?.text}</h2>
